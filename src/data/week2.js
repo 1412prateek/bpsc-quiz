@@ -1,5 +1,11 @@
 // src/data/week2Questions.js
 const Week2 = [
+
+  {
+    question: "Where is the most ancient University?",
+    options: ["Bihat", "UP", "Punjab", "Kerela"],
+    answer: "Bihar"
+  },
   {
     question: "What is the capital of Bihar?",
     options: ["Patna", "Gaya", "Muzaffarpur", "Bhagalpur"],
