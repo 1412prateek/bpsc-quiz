@@ -52,10 +52,10 @@ export const week1 = [
     </tr>
   </table><b>Code</b>`,
   options: [
-    "A. b c d a",
-    "B. d c b a",
-    "C. d c b a",
-    "D. a c b d"
+    "A. 1-b 2-c 3-d 4-a",
+    "B. 1-d 2-c 3-b 4-a",
+    "C. 1-d 2-c 3-b 4-a",
+    "D. 1-a 2-c 3-b 4-d"
   ],
   answer: "D. a c b d"
 },
