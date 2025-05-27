@@ -21,37 +21,7 @@ body {
   color: #fff;
 }
 
-
-
-
-
-/*
-.question {
-  font-size: 1.2rem;
-  color: #fff;
-}
-
-
-
-
-
-
-
-.question table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1rem;
-}
-
-.question th,
-.question td {
-  text-align: left;
-  padding: 4px 8px;
-}
-  */
-
-
-  /* Make question text and embedded tables responsive */
+/* Make question text and embedded tables responsive */
 .question {
   overflow-x: auto;
   white-space: normal;
@@ -95,18 +65,6 @@ body {
     padding: 10px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .options {
   display: flex;
@@ -215,12 +173,87 @@ body {
   color: white;
 }
 
-.option-button.correct {
-  background-color: #4caf50; /* green */
-  color: white;
+/* Added for result page styling */
+.result-bar-container {
+  display: flex;
+  height: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #444;
+  max-width: 500px;
 }
 
-.option-button.incorrect {
-  background-color: #f44336; /* red */
-  color: white;
+.result-bar.correct-bar {
+  background-color: #00c49f;
+  height: 100%;
+  transition: width 0.8s ease;
 }
+
+.result-bar.wrong-bar {
+  background-color: #ff6b6b;
+  height: 100%;
+  transition: width 0.8s ease;
+}
+
+.result-summary {
+  margin: 30px auto 0 auto;
+  max-width: 700px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  color: #ddd;
+  font-size: 16px;
+  text-align: left;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.result-question {
+  margin-bottom: 20px;
+}
+
+.result-question h4 {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.result-answer {
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+.correct {
+  color: #00c49f;
+}
+
+.incorrect {
+  color: #ff6b6b;
+}
+
+/* Style for the pie chart container */
+.recharts-responsive-container {
+  margin-top: 30px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style home button to match theme */
+.home-button {
+  margin-top: 20px;
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #574fe2;
+}
+
+

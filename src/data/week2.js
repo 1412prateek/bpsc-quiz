@@ -3,7 +3,7 @@ const Week2 = [
 
   {
     question: "Where is the most ancient University?",
-    options: ["Bihat", "UP", "Punjab", "Kerela"],
+    options: ["Bihar", "UP", "Punjab", "Kerela"],
     answer: "Bihar"
   },
   {
