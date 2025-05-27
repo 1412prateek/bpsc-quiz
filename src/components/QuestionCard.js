@@ -12,7 +12,8 @@ const QuestionCard = ({ data, onAnswer, selectedOption }) => {
 
   return (
     <div className="question-card">
-      <pre className="question">{question}</pre>
+      <div className="question" dangerouslySetInnerHTML={{ __html: question }} />
+
       <div className="options">
         {options.map((option, index) => {
           let className = "option-button";

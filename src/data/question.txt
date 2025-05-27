@@ -1,0 +1,29 @@
+9. Match the following BOOKS ana writers- 
+List-I                                                    List-II
+(I) India conquered                                     (a)William Irvine 
+(2) Army of the Indian Mughals                          (b) Jon Wilson 
+(3) The Agrarian System of Mughal India                 (c) Sidneyowen 
+(4) The fall of the Mughal empire                       (d) Irfan Habib 
+Code
+    1 2 3 4 
+A. c a b d 
+B. b c d a 
+C. b a c d 
+D. d c b a 
+
+
+
+
+
+.question table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.question th,
+.question td {
+  text-align: left;
+  padding: 4px 8px;
+}
+

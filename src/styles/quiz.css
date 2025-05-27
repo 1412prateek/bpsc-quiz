@@ -21,10 +21,92 @@ body {
   color: #fff;
 }
 
+
+
+
+
+/*
 .question {
   font-size: 1.2rem;
   color: #fff;
 }
+
+
+
+
+
+
+
+.question table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.question th,
+.question td {
+  text-align: left;
+  padding: 4px 8px;
+}
+  */
+
+
+  /* Make question text and embedded tables responsive */
+.question {
+  overflow-x: auto;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+/* Ensure tables inside question text adapt on small screens */
+.question table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+}
+
+/* Make table rows wrap and readable on small screens */
+.question th,
+.question td {
+  text-align: left;
+  padding: 8px;
+  word-break: break-word;
+}
+
+/* On very small devices, allow horizontal scroll for long content */
+@media (max-width: 600px) {
+  .question {
+    font-size: 0.95rem;
+  }
+
+  .question table {
+    font-size: 0.9rem;
+  }
+
+  .options {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .option-button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .options {
   display: flex;
