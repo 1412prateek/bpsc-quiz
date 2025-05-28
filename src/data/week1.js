@@ -57,7 +57,7 @@ export const week1 = [
     "C. 1-d 2-c 3-b 4-a",
     "D. 1-a 2-c 3-b 4-d"
   ],
-  answer: "D. a c b d"
+  answer: "D. 1-a 2-c 3-b 4-d"
 },
 
 
@@ -135,7 +135,72 @@ answer: "C. Abdullah Qutab Shah of Golconda"
     "D. 1-d, 2-c, 3-b, 4-a"
   ],
   answer: "B. 1-b, 2-c, 3-d, 4-a"
+},
+
+
+{
+  question: "10. What was MAKTABS?",
+  options: [
+    "A. Coingage of Deccan Kingdoms",
+    "B. Administrative unit during medieval era",
+    "C. Educational Institution",
+    "D. Judicial System"
+  ],
+  answer: "C. Educational Institution"
+},
+
+
+{
+  question: `I2. Match the Art & Culture and Artist:<br><br>
+  <table border="0" style="width:100%">
+    <tr>
+      <th align="left">List-I (Art & Culture)</th>
+      <th align="left">List-II (Artist)</th>
+    </tr>
+    <tr>
+      <td>(1) Bada Imambara</td>
+      <td>(a) Asaf-Ud-Daula</td>
+    </tr>
+    <tr>
+      <td>(2) Astronomical Observatory</td>
+      <td>(b) Sawai Jai Singh</td>
+    </tr>
+    <tr>
+      <td>(3) Heer-Ranjha</td>
+      <td>(c) Waris Shah</td>
+    </tr>
+    <tr>
+      <td>(4) Shah jo Risalo</td>
+      <td>(d) Shah Abdul Latif</td>
+    </tr>
+  </table><br><b>Code</b>`,
+  options: [
+    "A. 1-a, 2-b, 3-c, 4-d",
+    "B. 1-b, 2-c, 3-d, 4-a",
+    "C. 1-c, 2-d, 3-a, 4-b",
+    "D. 1-d, 2-a, 3-b, 4-c"
+  ],
+  answer: "A. 1-a, 2-b, 3-c, 4-d"
+},
+
+{
+  question: `13. Arrange the Governor Generals in ascending order of their appointment:<br><br>
+  <ol>
+    <li>Sir John Shore</li>
+    <li>Lord Hardinge I</li>
+    <li>Lord Hastings</li>
+    <li>Lord Amherst</li>
+  </ol>`,
+  options: [
+    "A. 1234",
+    "B. 2341",
+    "C. 1243",
+    "D. 1342"
+  ],
+  answer: "D. 1342"
 }
+
+
 
 
 
